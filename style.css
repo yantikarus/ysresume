@@ -131,7 +131,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	/* color: ; */
 }
 
 address {
@@ -209,6 +209,17 @@ button:focus {
 	padding: 12px 35px;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
+
+}
+a.view-work {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	right:0;
+	left:0;
+	z-index: 9999;
+	width:20%;
+
 }
 
 .mu-primary-btn:hover,
@@ -232,9 +243,11 @@ button:focus {
 	width: 130px;
 }
 
+
 .mu-send-msg-btn:hover,
 .mu-send-msg-btn:focus {
-	background-color: #fff;
+	background-color: #16A085;
+	color:white;
 }
 
 
@@ -373,6 +386,8 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+
+
 }
 
 .mu-featured-slider p,
@@ -1091,6 +1106,35 @@ button:focus {
 	transition: all 0.5s;
 }
 
+#contact {
+	/* border:2px solid red; */
+	margin-left:45%;
+	border-radius:35px;
+	width:auto;
+}
+/* #contact :hover {
+	background-color: #339999;
+	color:white;
+} */
+
+.services:hover{
+	box-shadow :1px 3px 5px rgba(0,0,0,0.1)
+}
+
+#profile-pic {
+	border-radius:50%;
+	margin: 5px 5px;
+}
+
+.particles-js-canvas-el {
+	/* border: 2px dotted red; */
+	position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  z-index:1;
+}
 
 
 /*--------------------*/
@@ -1170,6 +1214,10 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+
+	#contact {
+		margin-left:40%;
+	}
 	.navbar-default .navbar-toggle {
 		border-color: #fff;
 	}
@@ -1215,6 +1263,9 @@ button:focus {
 
 
 @media (max-width: 640px){
+	#contact {
+		margin-left:38%;
+	}
 
 	#mu-header.mu-fixed-nav {
 		padding: 10px 0;
@@ -1252,6 +1303,9 @@ button:focus {
 
 
 @media (max-width: 480px) {
+	#contact {
+		margin-left:32%;
+	}
 
 	#mu-header {
 		padding: 10px 0;
@@ -1374,7 +1428,9 @@ button:focus {
 	.mu-contact-content {
 		padding: 0;
 	}
-	
+	#contact {
+		margin-left:30%;
+	}
 }
 
 
